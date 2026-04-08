@@ -14,6 +14,15 @@ export const PROJECTS: Project[] = [
   },
   {
     id: 2,
+    name: "SpendWise",
+    type: "Full Stack · SaaS · Finance Tracker · Budget",
+    description: "Full-stack personal finance SaaS built with Next.js 14, TypeScript and MongoDB, featuring budgets, reports, recurring transactions, email alerts, Paystack payments, download your transaction history and 5-language i18n.",
+    stack: ["Next.js", "Nodemailer", "TypeScript", "MongoDB", "Paystack", "Tailwind CSS", "i18n (5 langs)"],
+    liveUrl: "https://spendwise-smoky.vercel.app",
+    githubUrl: "https://github.com/SeunfunmiO/spendwise",
+  },
+  {
+    id: 3,
     name: "HerCycleBloom",
     type: "Full Stack · Health Tech · Period Tracker",
     description:
@@ -23,7 +32,7 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/SeunfunmiO/her_cycle_bloom",
   },
   {
-    id: 3,
+    id: 4,
     name: "UrbanGraphTees",
     type: "Full Stack · E-Commerce · Fashion",
     description:
